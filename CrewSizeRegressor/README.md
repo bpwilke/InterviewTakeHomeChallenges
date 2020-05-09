@@ -1,0 +1,26 @@
+# Crew Size Regressor
+
+This coding exercise should be performed in python (which is the programming language used by the team). You are free to use the internet and any other libraries. Please save your work in a Jupyter notebook and email it to us for review.
+Data file: cruise_ship_info.csv (this file will be emailed to you)
+
+Objective: Build a regressor that recommends the “crew” size for potential ship buyers. Please do the following steps (hint: use numpy, scipy, pandas, sklearn and matplotlib)
+1. Read the file and display columns.
+
+2. Calculate basic statistics of the data (count, mean, std, etc) and examine data and state your observations.
+
+3. Select columns that will be probably important to predict “crew” size.
+
+4. If you removed columns explain why you removed those.
+
+5. Use one-hot encoding for categorical features.
+
+6. Create training and testing sets (use 60% of the data for the training and reminder for testing).
+
+7. Build a machine learning model to predict the ‘crew’ size.
+
+8. Calculate the Pearson correlation coefficient for the training set and testing data sets.
+
+9. Describe hyper-parameters in your model and how you would change them to improve the performance of the model.
+
+10. What is regularization? What is the regularization parameter in your model?
+Plot regularization parameter value vs Pearson correlation for the test and training sets, and see whether your model has a bias problem or variance problem.
